@@ -1,0 +1,55 @@
+html {
+  height: 0%;
+  width: 0%;
+}
+/* .boarders */
+.boarders-horizontal{
+	position: absolute;
+	background: black;
+	width: 98.5%;
+	height: 8px;
+}
+.boarders-vartical{
+	position: absolute;
+	background: black;
+	width: 8px;
+	height: 620px;
+}
+
+.boarders-vartical-left{
+	position: absolute;
+	left: 1342px;
+	background: black;
+	width: 8px;
+	height: 620px;
+}
+.boarders-horizontal-down{
+	position: absolute;
+	bottom: -620px;
+	background: black;
+	width: 100.3%;
+	height: 8px;
+}
+
+/* Ball */
+.ball{
+	border-radius: 100%;
+	position: relative;
+	left: 600px;
+	top: 100px;
+	background: black;
+	width: 15px;
+	height: 15px;
+}
+
+
+
+/* Net */
+.net{
+	position: relative;
+	left: 600px;
+	top: 500px;
+	background: black;
+	width: 140px;
+	height: 5px;
+}
